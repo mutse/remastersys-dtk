@@ -1,0 +1,192 @@
+
+/*pushButton1*/
+QPushButton#pushButton{
+        background-image: url(:/res/image/1.png);
+	border: 0px;
+}
+QPushButton#pushButton:hover{
+        background-image: url(:/res/image/1.png);
+	border: 0px;
+}
+QPushButton#pushButton:checked{
+        background-image: url(:/res/image/1.png);
+	border: 0px;
+}
+
+/*pushButton2*/
+QPushButton#pushButton_2{
+        background-image: url(:/res/image/2.png);
+	border: 0px;
+}
+QPushButton#pushButton_2:hover{
+        background-image: url(:/res/image/2.png);
+	border: 0px;
+}
+QPushButton#pushButton_2:checked{
+        background-image: url(:/res/image/2.png);
+	border: 0px;
+}
+
+/*pushButton3*/
+QPushButton#pushButton_3{
+        background-image: url(:/res/image/3.png);
+	border: 0px;
+}
+QPushButton#pushButton_3:hover{
+        background-image: url(:/res/image/3.png);
+	border: 0px;
+}
+QPushButton#pushButton_3:checked{
+        background-image: url(:/res/image/3.png);
+	border: 0px;
+}
+
+/*pushButton4*/
+QPushButton#pushButton_4{
+        background-image: url(:/res/image/4.png);
+	border: 0px;
+}
+QPushButton#pushButton_4:hover{
+        background-image: url(:/res/image/4.png);
+	border: 0px;
+}
+QPushButton#pushButton_4:checked{
+        background-image: url(:/res/image/4.png);
+	border: 0px;
+}
+
+
+/*menuBtn*/
+QPushButton#menuBtn{
+	background-image: url(:/res/image/cai.png);
+	border: 0px;
+}
+QPushButton#menuBtn:hover{
+	background-image: url(:/res/image/cai2.png);
+	border: 0px;
+}
+QPushButton#menuBtn:checked{
+	background-image: url(:/res/image/cai2.png);
+	border: 0px;
+}
+
+/*minBtn*/
+QPushButton#minBtn{
+	background-image: url(:/res/image/min.png);
+	border: 0px;
+}
+QPushButton#minBtn:hover{
+	background-image: url(:/res/image/min2.png);
+	border: 0px;
+}
+QPushButton#minBtn:checked{
+	background-image: url(:/res/image/min2.png);
+	border: 0px;
+}
+
+/*nomalBtn*/
+QPushButton#nomalBtn{
+	background-image: url(:/res/image/max.png);
+	border: 0px;
+}
+QPushButton#nomalBtn:hover{
+	background-image: url(:/res/image/max2.png);
+	border: 0px;
+}
+QPushButton#nomalBtn:checked{
+	background-image: url(:/res/image/max2.png);
+	border: 0px;
+}
+
+/*closeBtn*/
+QPushButton#closeBtn{
+	background-image: url(:/res/image/close.png);
+	border: 0px;
+}
+QPushButton#closeBtn:hover{
+	background-image: url(:/res/image/close2.png);
+	border: 0px;
+}
+QPushButton#closeBtn:checked{
+	background-image: url(:/res/image/close2.png);
+	border: 0px;
+}
+
+QPushButton#workdirBtn{
+	color: #333;
+	border: 2px solid #555;
+	border-radius: 11px;
+	padding: 5px;
+	background: qradialgradient(cx: 0.3, cy: -0.4,
+	fx: 0.3, fy: -0.4,
+	radius: 1.35, stop: 0 #fff, stop: 1 #888);
+	min-width: 80px;
+}
+
+QPushButton#workdirBtn:hover {
+	background: qradialgradient(cx: 0.3, cy: -0.4,
+	fx: 0.3, fy: -0.4,
+	radius: 1.35, stop: 0 #fff, stop: 1 #bbb);
+}
+
+QPushButton#workdirBtn:pressed {
+	background: qradialgradient(cx: 0.4, cy: -0.1,
+	fx: 0.4, fy: -0.1,
+	radius: 1.35, stop: 0 #fff, stop: 1 #ddd);
+}
+
+QLineEdit {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 0 8px;
+	background: lightgray;
+	selection-background-color: darkgray;
+}
+
+
+QCheckBox::indicator{
+    border: 2px solid #555;
+    border-radius: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+QCheckBox::indicator:disabled{
+    background-image: url(:/res/image/check.png);
+    border: 2px solid #555;
+    border-radius: 4px;
+}
+
+QCheckBox::indicator:checked{
+    background-image: url(:/res/image/checked.png);
+    border: 2px solid #555;
+    border-radius: 4px;
+}
+
+QMenu {
+    background-image: url(:/res/image/MenuBG.png);
+}
+
+QMenu::item {
+    padding: 2px 20px 2px 20px;
+    border: 1px solid transparent; /* reserve space for selection border */
+    spacing: 20px;
+}
+
+QMenu::item:selected {
+    border-color: darkgray;
+    background: rgb(128, 128, 128, 150);
+    color:white;
+}
+QMenu::separator
+{
+    height: 2px;
+    background: black;
+    margin: 2px 5px 2px 4px;
+}
+QMenu::indicator
+{
+    width: 20px;
+    height: 13px;
+}
+

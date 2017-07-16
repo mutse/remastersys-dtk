@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Remastersys Dtk
+Name[zh_CN]=系统备份
+Comment=Backup Ubuntu system
+Comment[zh_CN]=Ubuntu 系统备份
+Icon=remastersys-dtk
+Exec=remastersys-dtk
+Terminal=false
+Type=Application
+Categories=
+NoDisplay=true

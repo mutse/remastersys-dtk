@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/image/1.png</file>
+        <file>res/image/2.png</file>
+        <file>res/image/3.png</file>
+        <file>res/image/4.png</file>
+        <file>res/image/cai.png</file>
+        <file>res/image/cai2.png</file>
+        <file>res/image/close.png</file>
+        <file>res/image/close2.png</file>
+        <file>res/image/frame.png</file>
+        <file>res/image/max.png</file>
+        <file>res/image/max2.png</file>
+        <file>res/image/min.png</file>
+        <file>res/image/min2.png</file>
+        <file>res/image/logo.png</file>
+        <file>res/qss/mainwindow.qss</file>
+        <file>res/image/aboutus.png</file>
+        <file>res/image/MenuBG.png</file>
+        <file>res/qss/menu.qss</file>
+        <file>res/image/check.png</file>
+        <file>res/image/checked.png</file>
+        <file>res/image/clear.png</file>
+        <file>res/image/pre.png</file>
+        <file>res/image/next.png</file>
+    </qresource>
+</RCC>
