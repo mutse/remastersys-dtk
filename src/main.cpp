@@ -3,7 +3,7 @@
 #include <QTranslator>
 #include <QDesktopWidget>
 #include "mainwindow.h"
-#include <dutility.h>
+#include <DWidgetUtil>
 #include "constant.h"
 
 int main(int argc, char *argv[])
@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     DApplication::loadDXcbPlugin();
 
     const char *descriptionText = QT_TRANSLATE_NOOP("MainWindow",
-                                                    "Ubuntu Remaster is a backup tool, which can backup you ubuntu linux desktop and create a new livecd iso.");
+                                                    "Remaster Dtk is a backup tool, which can backup you ubuntu linux desktop and create a new livecd iso.");
 
     const QString acknowledgementLink = "https://github.com/mutse/remastersys-dtk";
 
@@ -31,8 +31,8 @@ int main(int argc, char *argv[])
         app.setWindowIcon(QIcon(":res/image/logo.png"));
 
         MainWindow win;
-        win.setMinimumSize(Constant::MAIN_WINDOW_WIDTH, Constant::MAIN_WINDOW_HEIGHT);
-        win.move ((QApplication::desktop()->width() - win.width()) / 2, (QApplication::desktop()->height() - win.height()) / 2);
+        win.setFixedSize(Constant::MAIN_WINDOW_WIDTH, Constant::MAIN_WINDOW_HEIGHT);
+        Dtk::Widget::moveToCenter(&win);
         win.show();
         return app.exec();
     }

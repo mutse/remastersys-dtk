@@ -37,7 +37,7 @@ MainWindow::MainWindow(DMainWindow *parent) :
 
     layout = new QStackedLayout();
 
-    homeWidget = new QWidget();
+    homeWidget = new HomeWidget();
     settingWidget = new QWidget();
 
     consoleWidget = new QConsoleWidget();
@@ -141,14 +141,11 @@ void MainWindow::slotMin()
 
 void MainWindow::initData()
 {
-    //setWindowFlags(Qt::FramelessWindowHint);
-    //setAttribute(Qt::WA_TranslucentBackground);
     m_menu = new QMenu();
     m_menu->addAction(tr("New Features"));
     m_menu->addSeparator();
 
-    // 获取当前用户名
-    QStringList userName = QStandardPaths::standardLocations(QStandardPaths::HomeLocation);
+    //QStringList userName = QStandardPaths::standardLocations(QStandardPaths::HomeLocation);
     //userName = userName.section("/", -1, -1);
 
     for (int i = 0; i != vecBtn.size(); ++i)
