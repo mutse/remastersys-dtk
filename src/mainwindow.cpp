@@ -38,7 +38,7 @@ MainWindow::MainWindow(DMainWindow *parent) :
     layout = new QStackedLayout();
 
     homeWidget = new HomeWidget();
-    settingWidget = new QWidget();
+    settingWidget = new SettingWidget();
 
     consoleWidget = new QConsoleWidget();
     consoleWidget->setFixedSize(Constant::CONSOLE_WIDGET_WIDTH, Constant::CONSOLE_WIDGET_HEIGHT);

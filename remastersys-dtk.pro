@@ -11,14 +11,16 @@ SOURCES += src/main.cpp\
     src/qconsolewidget.cpp \
     src/redirect.cpp \
     src/toolbar.cpp \
-    src/homewidget.cpp
+    src/homewidget.cpp \
+    src/settingwidget.cpp
 
 HEADERS  += src/mainwindow.h \
     src/qconsolewidget.h \
     src/redirect.h \
     src/toolbar.h \
     src/constant.h \
-    src/homewidget.h
+    src/homewidget.h \
+    src/settingwidget.h
 
 RESOURCES += \
     res.qrc

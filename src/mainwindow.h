@@ -25,6 +25,7 @@
 #include <QPushButton>
 #include <QVector>
 #include "homewidget.h"
+#include "settingwidget.h"
 
 DWIDGET_USE_NAMESPACE
 
@@ -76,7 +77,7 @@ private:
     QVector <QPushButton*> vecBtn;
 
     HomeWidget *homeWidget;
-    QWidget *settingWidget;
+    SettingWidget *settingWidget;
     QConsoleWidget *consoleWidget;
 
     QIcon icon;
