@@ -6,6 +6,7 @@
 #include <QPushButton>
 #include <QLabel>
 #include <QLineEdit>
+#include <QCheckBox>
 
 class SettingWidget : public QWidget
 {
@@ -38,11 +39,24 @@ private:
     QLineEdit *dirText;
     QPushButton *dirBtn;
 
+    QHBoxLayout *workLayout;
+    QLabel *workInfo;
+
     QHBoxLayout *exclLayout;
     QLabel *exclInfo;
     QLineEdit *exclText;
 
+    QHBoxLayout *urlLayout;
+    QLabel *urlInfo;
+    QLineEdit *urlText;
 
+    QHBoxLayout *hfsLayout;
+    QLabel *hfsInfo;
+    QLineEdit *hfsText;
+
+    QHBoxLayout *iconLayout;
+    QCheckBox *iconCheck;
+    QLabel *iconInfo;
 };
 
 #endif // SETTINGWIDGET_H
